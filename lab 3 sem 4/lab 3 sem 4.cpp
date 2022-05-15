@@ -7,7 +7,7 @@
 #include"Parsing.h"
 #include"BellmanFord.h"
 using namespace std;
-int main()
+int main()  
 {
     List<Edge> list1;
     List<string> list2;
