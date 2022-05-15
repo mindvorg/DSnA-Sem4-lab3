@@ -11,7 +11,7 @@ int main()
 {
     List<Edge> list1;
     List<string> list2;
-    Parse(&list1,&list2);
+    parse(&list1,&list2);
     int path = -1;
     path = algorithm(&list1, &list2, "Saint-P", "Khabarovsk");
 }

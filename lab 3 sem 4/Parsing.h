@@ -6,7 +6,7 @@
 #include<fstream>
 
 using namespace std;
-void Parse(List<Edge>* listEdg, List<string>* listStr)
+void parse(List<Edge>* listEdg, List<string>* listStr)
 {
 	fstream file;
 	file.open("priceList.txt", ios_base::in);
